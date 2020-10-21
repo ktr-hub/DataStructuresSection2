@@ -7,16 +7,11 @@ namespace DataStructuresDemo
     {
         static void Main(string[] args)
         {
-            LinkedListStack linkedListStack = new LinkedListStack();
-            linkedListStack.Push(10);
-            linkedListStack.Display();
-            linkedListStack.Push(20);
-            linkedListStack.Display();
-            linkedListStack.Push(30);
-            linkedListStack.Display();
-            Console.WriteLine("\nPeek is : " + linkedListStack.Peek());
-            linkedListStack.Pop();
-            linkedListStack.Display();
+            LinkedListQueue linkedListQueue = new LinkedListQueue();
+            linkedListQueue.Enque(10);
+            linkedListQueue.Enque(20);
+            linkedListQueue.Enque(30);
+            linkedListQueue.Display();
         }
     }
 }
