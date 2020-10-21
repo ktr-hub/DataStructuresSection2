@@ -7,7 +7,13 @@ namespace DataStructuresDemo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to C# stack demo");
+            LinkedListStack linkedListStack = new LinkedListStack();
+            linkedListStack.Push(10);
+            linkedListStack.Display();
+            linkedListStack.Push(20);
+            linkedListStack.Display();
+            linkedListStack.Push(30);
+            linkedListStack.Display();
         }
     }
 }
