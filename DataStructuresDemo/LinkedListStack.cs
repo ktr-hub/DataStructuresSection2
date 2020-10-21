@@ -40,5 +40,21 @@ namespace DataStructuresDemo
                 }
             }
         }
+
+        internal int Peek()
+        {
+            if (top == null)
+            {
+                Console.WriteLine("No data to show Peek ...");
+                return -1;
+            }
+            return top.data;
+        }
+
+        internal void Pop()
+        {
+            Console.WriteLine("Deleting element : " + top.data);
+            top = top.next;
+        }
     }
 }

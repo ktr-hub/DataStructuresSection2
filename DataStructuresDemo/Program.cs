@@ -14,6 +14,9 @@ namespace DataStructuresDemo
             linkedListStack.Display();
             linkedListStack.Push(30);
             linkedListStack.Display();
+            Console.WriteLine("\nPeek is : " + linkedListStack.Peek());
+            linkedListStack.Pop();
+            linkedListStack.Display();
         }
     }
 }
