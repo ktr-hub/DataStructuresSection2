@@ -26,6 +26,19 @@ namespace DataStructuresDemo
             Console.WriteLine("Item Added to Linked List Queue: " + node.data);
         }
 
+        internal void Deque()
+        {
+            if (head == null)
+            {
+                Console.WriteLine("No data");
+            }
+            else
+            {
+                Console.WriteLine("Deleting : " + head.data);
+                head = head.next;
+            }
+        }
+
         internal void Display()
         {
             if (head == null)

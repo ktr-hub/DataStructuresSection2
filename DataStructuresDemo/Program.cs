@@ -12,6 +12,15 @@ namespace DataStructuresDemo
             linkedListQueue.Enque(20);
             linkedListQueue.Enque(30);
             linkedListQueue.Display();
+
+            linkedListQueue.Deque();
+            linkedListQueue.Display();
+
+            linkedListQueue.Deque();
+            linkedListQueue.Display();
+
+            linkedListQueue.Deque();
+            linkedListQueue.Display();
         }
     }
 }
